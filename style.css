@@ -8,7 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background: #161623;
+  background: url(/img/polygon-26677-2560x1440.jpg) ;
   min-height: 100vh;
 }
 img {
@@ -24,8 +24,8 @@ section::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgb(41, 112, 105), rgb(10, 102, 30));
-  clip-path: circle(30% at right 70%);
+  /* background: linear-gradient(rgb(28, 43, 41), rgb(30, 36, 71));
+  clip-path: circle(25% at 105% 70%); */
 }
 section::after {
   content: "";
@@ -34,8 +34,8 @@ section::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#216eb6, #b5cf1f);
-  clip-path: circle(20% at 10% 10%);
+  /* background: linear-gradient(#69401a, #472414);
+  clip-path: circle(20% at 0% 20%); */
 }
 .container {
   position: relative;
@@ -52,12 +52,15 @@ section::after {
   height: 400px;
   background: rgba(255, 255, 255, 0.05);
   margin: 20px;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+  border-top: 1px solid rgba(255, 255, 255, 0.301);
+  border-left: 0.5px solid rgba(255, 255, 255, 0.301);
 }
 .container .card .content {
   position: relative;
@@ -126,5 +129,5 @@ section::after {
   font-size: 24px;
 }
 .container .card .sci li a:hover {
-  color: #199442;
+  color: #2da9c9;
 }
