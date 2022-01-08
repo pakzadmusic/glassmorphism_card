@@ -20,7 +20,7 @@ class VanillaTilt {
     this.clientHeight = null;
     this.left = null;
     this.top = null;
-  
+
     // for Gyroscope sampling
     this.gammazero = null;
     this.betazero = null;
