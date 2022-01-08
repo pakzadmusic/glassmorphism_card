@@ -8,7 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background: url(/img/polygon-26677-2560x1440.jpg) ;
+  background: url(/img/polygon-26677-2560x1440.jpg);
   min-height: 100vh;
 }
 img {
